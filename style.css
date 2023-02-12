@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a, a:link, a:visited{
+    color:inherit;
+    text-decoration: none;
+}
+li{
+    list-style:none;
+}
+
+.메뉴{
+    background-color: beige;
+    width: 1200px;
+    margin:0 auto;
+}
+
+header{
+    background-color:powderblue;
+    position:absolute;
+    color: seagreen;
+    top:0;
+    width:100%;
+    padding:1rem;
+}
+
+header .메뉴{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+header nav ul{
+    display:flex;
+}
+
+header nav ul li{
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+header button{
+    background:transparent;
+    border:0;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
