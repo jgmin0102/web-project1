@@ -1,8 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400');
+
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+
 a, a:link, a:visited{
     color:inherit;
     text-decoration: none;
@@ -25,7 +34,7 @@ header{
     top:0;
     z-index: 1;
     width:100%;
-    padding:1rem;
+    padding:1.5rem;
 }
 
 header .container{
@@ -40,8 +49,8 @@ header nav ul{
 
 header nav ul li{
     float: left;
-    margin-right: 20px;
-    padding: 10px;
+    margin-right: 1.25rem;
+    padding: 0.6rem;
 }
 
 header button{
@@ -66,6 +75,7 @@ main{
 main h1{
     font-size: 2.5rem;
     font-weight: bold;
+    line-height: 160%;
 }
 
 main h1 #모임{
@@ -75,8 +85,9 @@ main h1 #모임{
 
 
 main p{
-    margin-top: 150px;
+    margin-top: 9.4rem;
     font-size: 1.5rem;
+    line-height: 160%;
 }
 
 main p #모임{
@@ -91,55 +102,256 @@ main button.arrow-down{
     font-size: 2.6rem;
     position:absolute;
     bottom: 1.3rem;
-}
+} 
+
+section{
+    padding: 5rem 0;
+} 
 
 section .제목{
+    margin-bottom: 3rem;
     font-size: 2rem;
-    margin-bottom: 50px;
 }
 
-section .box::after{
+section.교내::after{
     content: "";
     display: block;
     clear: both;
 }
 
-section .box .콘텐츠{
-    background-color: #FCEDDA;
-    color: #EE4E34;
-    width: 30%;
-    height: 300px;
-    padding:2rem;
-    float: left;
-    margin-right: 5%;
-    cursor:pointer;
-    border: 1px solid black;
-    font-size: 1.4rem;
-    font: bold;
-    text-align: center;
+section.교내 .콘텐츠{
+     width: 30%;
+     margin-right: 5%;
+     padding: 1rem 1rem 1.5rem 1rem;
+     float: left;
+     background-color: #fffb0b;
+     border: 1px solid;
+     margin-bottom:3rem;
+     height: 15rem;
+     text-align: center;
 }
 
-section .box .콘텐츠:last-child{
+section.교내 .콘텐츠:nth-child(3n){
     margin-right: 0;
 }
-section .제목{
-    margin-top: 50px;
-}
-section .box2 .콘텐츠{
-    margin-top: 100px;
-    margin-bottom: 3rem;
-}
 
-section .box .콘텐츠:hover{
+section.교내 .콘텐츠:hover{
     background-color: #E2D3F3;
     color: #013DC4;
+    cursor: pointer;
 }
 
-section .box3 .콘텐츠{
-    margin-top: 100px;
-    margin-bottom: 3rem;
-    font-size: 2rem;
+section.교내 .콘텐츠 h3{
+    font-size:1.75rem;
 }
 
-    
+section.교외 {
+    padding-bottom: 6.5rem;
+}
 
+section.교외::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section.교외 .콘텐츠{
+     width: 30%;
+     margin-right: 5%;
+     padding: 1rem 1rem 1.5rem 1rem;
+     float: left;
+     background-color: #02343F;
+     border: 1px solid;
+     margin-bottom:3rem;
+     height: 15rem;
+     text-align: center;
+}
+
+section.교외 .콘텐츠:nth-child(3n){
+    margin-right: 0;
+}
+
+section.교외 .콘텐츠:hover{
+    background-color: #E2D3F3;
+    color: #013DC4;
+    cursor: pointer;
+}
+
+section.교외 .콘텐츠 h3{
+    font-size:1.75rem;
+}
+
+section.문의1 {
+    padding-top: 1.3rem;
+    padding-bottom: 3rem;
+    background-color: lightgray;
+}
+
+section.문의1 .연락::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+
+section.문의1 .제목{
+    font-size: 1.8rem;
+}
+
+section.문의1 .연락 .연락망{
+    width: 25%;
+    margin-right: 5%;
+    float: left;
+}
+
+section.문의1 .연락 .폼{
+    float: left;
+    width: 70%;
+}
+
+section.문의1 .연락 .연락망 .text{
+    border: 1px solid;
+    height: 5rem;
+    margin-bottom: 1.3rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+section .연락 .연락망 .text h1{
+    font-size: 1.5rem;
+}
+
+section .연락 .연락망 .text h2{
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+}
+
+section .연락 .연락망 .text .아이콘{
+    margin-left: 1rem;
+    font-size: 2.7rem;
+    margin-right: 1rem;
+}
+
+.폼 fieldset{
+    height: 43.75rem;
+    background-color: white;
+}
+
+.폼 legend{
+    margin-bottom: 1.3rem;
+}
+
+.폼 label {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.폼 input{
+    display: block;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 0.625rem;
+    margin-left: 2rem;
+    margin-bottom: 0.625rem;
+    width: 90%;
+    padding: 0.5rem;
+}
+
+.폼 input:focus{
+    outline: none;
+    border:1px solid brown;
+    box-shadow: 0 0 10px brown;
+}
+
+.폼 textarea{
+    display: block;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 0.625rem;
+    margin-left: 1.875rem;
+    margin-bottom: 1.3rem;
+    width: 90%;
+    padding: 11rem;
+    resize: none;
+}
+
+.폼 textarea:focus{
+    outline: none;
+    border:1px solid brown;
+    box-shadow: 0 0 10px brown;
+}
+
+@media screen and (max-width:1200px){
+    main .container{
+        width:990px;
+    }
+    section .container{
+        width:600px;
+    }
+    section .box .콘텐츠{
+        width:48%;
+        margin-right: 0;
+    }
+    section .box .콘텐츠:nth-child(2n+1){
+        margin-right: 4%;
+    }
+    section.문의1 .연락 .연락망{
+        width:100%;
+    }
+    section.문의1 .연락 .폼{
+        width:100%;
+        margin-left:0;
+    }
+
+}
+
+@media screen and (max-width:990px) {
+    html{
+        font-size: 14px;
+    }
+    main .container{
+        width:760px;
+    }
+
+    section .box .콘텐츠{
+        width:100%
+    }
+}
+
+@media screen and (max-width:760px) {
+    html{
+        font-size: 13px;
+    }
+    main .container{
+        width:570px;
+    }
+    section .container{
+        width:400px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    html{
+        font-size: 12px;
+    }
+    main .container{
+        width:400px;
+    }
+    section .container{
+        width:360px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    html{
+        font-size: 11px;
+    }
+    main .container{
+        width:320px;
+    }
+    section .container{
+        width:320px;
+    }
+}
