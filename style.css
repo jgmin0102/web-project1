@@ -27,7 +27,7 @@ li{
 }
 
 header{
-    background-color:powderblue;
+    background-color:#DCE2F0;
     position:fixed;
     color: rgb(229.5, 0, 0);
     font-size: 1.2rem;
@@ -68,8 +68,8 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color:#02343F ;
-    color:#F0EDCC;
+    background-color: #FFEBE7;
+    color:#815854;
 }
 
 main h1{
@@ -79,7 +79,7 @@ main h1{
 }
 
 main h1 #모임{
-    color:#DCE2F0;
+    color:#50586C;
     font-size: 2.6rem;
 }
 
@@ -90,15 +90,25 @@ main p{
     line-height: 160%;
 }
 
-main p #모임{
-    color:#DCE2F0;
+main p #모임1{
+    color:#50586C;
+    font-size:1.6rem;
+}
+
+main p #모임2{
+    color: #50586C;
+    font-size:1.6rem;
+}
+
+main p #모임3{
+    color: #50586C;
     font-size:1.6rem;
 }
 
 main button.arrow-down{
     background-color: transparent;
     border: none;
-    color: #F0EDCC;
+    color: #50586C;
     font-size: 2.6rem;
     position:absolute;
     bottom: 1.3rem;
@@ -124,11 +134,13 @@ section.교내 .콘텐츠{
      margin-right: 5%;
      padding: 1rem 1rem 1.5rem 1rem;
      float: left;
-     background-color: #fffb0b;
+     background-color: #FCEDDA;
+     color:#EE4E34;
      border: 1px solid;
      margin-bottom:3rem;
      height: 15rem;
      text-align: center;
+     font-size: 1.15rem;
 }
 
 section.교내 .콘텐츠:nth-child(3n){
@@ -136,8 +148,8 @@ section.교내 .콘텐츠:nth-child(3n){
 }
 
 section.교내 .콘텐츠:hover{
-    background-color: #E2D3F3;
-    color: #013DC4;
+    background-color: #EE4E34;
+    color: #FCEDDA;
     cursor: pointer;
 }
 
@@ -160,11 +172,13 @@ section.교외 .콘텐츠{
      margin-right: 5%;
      padding: 1rem 1rem 1.5rem 1rem;
      float: left;
-     background-color: #02343F;
+     background-color: #ACC7B4;
+     color:#331B3F;
      border: 1px solid;
      margin-bottom:3rem;
      height: 15rem;
      text-align: center;
+     font-size: 1.15rem;
 }
 
 section.교외 .콘텐츠:nth-child(3n){
@@ -172,13 +186,26 @@ section.교외 .콘텐츠:nth-child(3n){
 }
 
 section.교외 .콘텐츠:hover{
-    background-color: #E2D3F3;
-    color: #013DC4;
+    background-color: #F0EDCC;
+    color: #02343F;
     cursor: pointer;
 }
 
 section.교외 .콘텐츠 h3{
     font-size:1.75rem;
+}
+
+section.교외 .콘텐츠 #soon1{
+    font-size:1.5rem;
+}
+
+section.교외 .콘텐츠 #soon2{
+    font-size:1.5rem;
+}
+
+
+section.교외 .콘텐츠 #soon3{
+    font-size:1.5rem;
 }
 
 section.문의1 {
@@ -218,11 +245,11 @@ section.문의1 .연락 .연락망 .text{
 }
 
 
-section .연락 .연락망 .text h1{
+section .연락 .연락망 .text h2{
     font-size: 1.5rem;
 }
 
-section .연락 .연락망 .text h2{
+section .연락 .연락망 .text h3{
     margin-top: 0.5rem;
     font-size: 1.3rem;
 }
@@ -261,8 +288,8 @@ section .연락 .연락망 .text .아이콘{
 
 .폼 input:focus{
     outline: none;
-    border:1px solid brown;
-    box-shadow: 0 0 10px brown;
+    border:1px solid gray;
+    box-shadow: 0 0 10px gray;
 }
 
 .폼 textarea{
@@ -279,8 +306,8 @@ section .연락 .연락망 .text .아이콘{
 
 .폼 textarea:focus{
     outline: none;
-    border:1px solid brown;
-    box-shadow: 0 0 10px brown;
+    border:1px solid gray;
+    box-shadow: 0 0 10px gray;
 }
 
 @media screen and (max-width:1200px){
