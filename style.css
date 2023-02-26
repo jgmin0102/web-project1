@@ -30,11 +30,11 @@ header{
     background-color:#DCE2F0;
     position:fixed;
     color: rgb(229.5, 0, 0);
-    font-size: 1.2rem;
+    font-size: 1rem;
     top:0;
     z-index: 1;
     width:100%;
-    padding:1.5rem;
+    padding:1.3rem;
 }
 
 header .container{
@@ -120,7 +120,12 @@ section{
 
 section .제목{
     margin-bottom: 3rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+section .제목 h5{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
 }
 
 section.교내::after{
@@ -130,17 +135,17 @@ section.교내::after{
 }
 
 section.교내 .콘텐츠{
-     width: 30%;
-     margin-right: 5%;
-     padding: 1rem 1rem 1.5rem 1rem;
-     float: left;
-     background-color: #FCEDDA;
-     color:#EE4E34;
-     border: 1px solid;
-     margin-bottom:3rem;
-     height: 15rem;
-     text-align: center;
-     font-size: 1.15rem;
+    width: 30%;
+    margin-right: 5%;
+    padding: 1rem 1rem 1.5rem 1rem;
+    float: left;
+    background-color: #ACC7B4;
+    color:#331B3F;
+    border: 1px solid;
+    margin-bottom:3rem;
+    height: 15rem;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 section.교내 .콘텐츠:nth-child(3n){
@@ -148,13 +153,13 @@ section.교내 .콘텐츠:nth-child(3n){
 }
 
 section.교내 .콘텐츠:hover{
-    background-color: #EE4E34;
-    color: #FCEDDA;
+    background-color: #F0EDCC;
+    color: #02343F;
     cursor: pointer;
 }
 
 section.교내 .콘텐츠 h3{
-    font-size:1.75rem;
+    font-size:2rem;
 }
 
 section.교외 {
@@ -168,17 +173,17 @@ section.교외::after{
 }
 
 section.교외 .콘텐츠{
-     width: 30%;
-     margin-right: 5%;
-     padding: 1rem 1rem 1.5rem 1rem;
-     float: left;
-     background-color: #ACC7B4;
-     color:#331B3F;
-     border: 1px solid;
-     margin-bottom:3rem;
-     height: 15rem;
-     text-align: center;
-     font-size: 1.15rem;
+    width: 30%;
+    margin-right: 5%;
+    padding: 1rem 1rem 1.5rem 1rem;
+    float: left;
+    background-color: #FCEDDA;
+    color:#EE4E34;
+    border: 1px solid;
+    margin-bottom:3rem;
+    height: 15rem;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 section.교외 .콘텐츠:nth-child(3n){
@@ -186,13 +191,13 @@ section.교외 .콘텐츠:nth-child(3n){
 }
 
 section.교외 .콘텐츠:hover{
-    background-color: #F0EDCC;
-    color: #02343F;
+    background-color: #EE4E34;
+    color: #FCEDDA;
     cursor: pointer;
 }
 
 section.교외 .콘텐츠 h3{
-    font-size:1.75rem;
+    font-size:2rem;
 }
 
 section.교외 .콘텐츠 #soon1{
@@ -206,6 +211,18 @@ section.교외 .콘텐츠 #soon2{
 
 section.교외 .콘텐츠 #soon3{
     font-size:1.5rem;
+}
+
+.뒤집기{
+    display:none;
+}
+
+.콘텐츠:hover .뒤집기{
+    display: block;
+}
+
+.콘텐츠:hover .기본{
+    display:none;
 }
 
 section.문의1 {
