@@ -22,7 +22,7 @@ li{
 }
 
 .container{
-    width: 1200px;
+    width: 1140px;
     margin:0 auto;
 }
 
@@ -34,7 +34,7 @@ header{
     top:0;
     z-index: 1;
     width:100%;
-    padding:1.3rem;
+    padding:1rem;
 }
 
 header .container{
@@ -327,9 +327,9 @@ section .연락 .연락망 .text .아이콘{
     box-shadow: 0 0 10px gray;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1140px){
     main .container{
-        width:990px;
+        width:992px;
     }
     section .container{
         width:600px;
@@ -351,12 +351,12 @@ section .연락 .연락망 .text .아이콘{
 
 }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:992px) {
     html{
         font-size: 14px;
     }
     main .container{
-        width:760px;
+        width:768px;
     }
 
     section .box .콘텐츠{
@@ -364,19 +364,19 @@ section .연락 .연락망 .text .아이콘{
     }
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:768px) {
     html{
         font-size: 13px;
     }
     main .container{
-        width:570px;
+        width:576px;
     }
     section .container{
         width:400px;
     }
 }
 
-@media screen and (max-width:570px) {
+@media screen and (max-width:576px) {
     html{
         font-size: 12px;
     }
