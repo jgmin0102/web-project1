@@ -115,11 +115,12 @@ main button.arrow-down{
 } 
 
 section{
-    padding: 5rem 0;
+    padding: 2rem 0;
 } 
 
 section .제목{
-    margin-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
     font-size: 1.5rem;
 }
 
@@ -143,7 +144,7 @@ section.교내 .콘텐츠{
     color:#331B3F;
     border: 1px solid;
     margin-bottom:3rem;
-    height: 15rem;
+    height: 13.5rem;
     text-align: center;
     font-size: 1.3rem;
 }
@@ -181,9 +182,9 @@ section.교외 .콘텐츠{
     color:#EE4E34;
     border: 1px solid;
     margin-bottom:3rem;
-    height: 15rem;
+    height: 13rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 section.교외 .콘텐츠:nth-child(3n){
@@ -278,7 +279,7 @@ section .연락 .연락망 .text .아이콘{
 }
 
 .폼 fieldset{
-    height: 43.75rem;
+    height: 30rem;
     background-color: white;
 }
 
@@ -317,7 +318,7 @@ section .연락 .연락망 .text .아이콘{
     margin-left: 1.875rem;
     margin-bottom: 1.3rem;
     width: 90%;
-    padding: 11rem;
+    padding: 5rem;
     resize: none;
 }
 
